@@ -9,25 +9,33 @@ def populate():
 
     python_pages = [
         {'title' : 'Official Python Tutorial',
-         'url'   : 'https://docs.python.org/3/tutorial/'},
+         'url'   : 'https://docs.python.org/3/tutorial/',
+         'views' : 12},
         {'title' : 'How to Think like a Computer Scientist',
-         'url'   : 'https://www.greenteapress.com/thinkpython/'},
+         'url'   : 'https://www.greenteapress.com/thinkpython/',
+         'views' : 12},
         {'title' : 'Learn Python in 10 Minutes',
-         'url'   : 'https://www.korokithakis.net/tutorials/python'}]
+         'url'   : 'https://www.korokithakis.net/tutorials/python',
+         'views' : 12},]
 
     django_pages = [
         {'title' : 'Official Django Tutorial',
-         'url'   : 'https://docs.djangoproject.com/en/2.1/intro/tutorials01/'},
+         'url'   : 'https://docs.djangoproject.com/en/2.1/intro/tutorials01/',
+         'views' : 12},
         {'title' : 'Django Rocks',
-         'url'   : 'https://www.djangorocks.com/'},
+         'url'   : 'https://www.djangorocks.com/',
+         'views' : 12},
         {'title' : 'How to Tango with Django',
-         'url'   : 'https://www.tangowithdjango.com/'}]
+         'url'   : 'https://www.tangowithdjango.com/',
+         'views' : 12},]
 
     other_pages = [
         {'title' : 'Bottle',
-         'url'   : 'https://bottlepy.org/docs/dev'},
+         'url'   : 'https://bottlepy.org/docs/dev',
+         'views' : 12},
         {'title' : 'Flask',
-         'url'   : 'https://flask.pocoo.prg'}]
+         'url'   : 'https://flask.pocoo.org',
+         'views' : 12},]
 
     cats = {'Python'           : { 'pages' : python_pages, 'views' : 128, 'likes': 64 },
             'Django'           : { 'pages' : django_pages, 'views' : 64,  'likes': 32 },
