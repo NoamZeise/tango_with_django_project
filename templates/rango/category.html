@@ -24,7 +24,11 @@
     {% endif %}
     </div>
   </body>
-
+  {% if category %}
+  <a href='add_page'>Add Page</a><br />
+  {% else %}
+  The specified category does not exist.
+  {% endif %}
   <a href="/rango/">Home</a>
 
 </html>
