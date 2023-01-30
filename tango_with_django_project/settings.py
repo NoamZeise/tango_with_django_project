@@ -27,7 +27,7 @@ SECRET_KEY = 'gwgpuy2@w93ehu-z4-qgw(jr1h35e$m69fnv7oqm#*d)v75h#('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -130,3 +130,6 @@ STATICFILES_DIRS = [STATIC_DIR, ]
 
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
+
+
+LOGIN_URL = 'rango:login' #redirects @ login_required()
